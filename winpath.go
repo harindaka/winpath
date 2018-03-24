@@ -14,6 +14,7 @@ func main() {
 
 	if len(os.Args) != 2 {
 		fmt.Println(`Usage: winpath "<your\new\path>"`)
+		fmt.Println(`Note that you may need to logoff and login again for changes to take effect`)
 		return
 	}
 

@@ -6,3 +6,5 @@ Simply download the [winpath.exe](https://github.com/harindaka/winpath/raw/maste
 
 ## Usage
 `winpath "<your\new\path>"`
+
+Note that you may need to logoff and login again for changes to take effect.
