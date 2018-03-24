@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	const PathEnvVariableKey = "FOO"
+	const PathEnvVariableKey = "PATH"
 
 	if len(os.Args) != 2 {
 		fmt.Println(`Usage: winpath "<your\new\path>"`)
@@ -30,7 +30,6 @@ func main() {
 		envVal = ""
 	}
 
-	fmt.Println("Current Value: ", envVal)
 	var envVals []string
 	if len(envVal) > 0 {
 		envVals = s.Split(envVal, ";")
@@ -50,8 +49,6 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	fmt.Println("Done: ", envVal)
 }
 
 func removeDuplicates(stringSlice []string) []string {
