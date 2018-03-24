@@ -5,6 +5,6 @@ Utility written in Golang to append values to the windows User Environment Path.
 Simply download the [winpath.exe](https://github.com/harindaka/winpath/raw/master/winpath.exe) to your Windows PC.
 
 ## Usage
-`winpath "<your\new\path>"`
+`winpath "your\new\path"`
 
 Note that you may need to logoff and login again for changes to take effect.
