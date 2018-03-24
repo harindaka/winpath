@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	const PathEnvVariableKey = "PATH"
+	const PathEnvVariableKey = "Path"
 
 	if len(os.Args) != 2 {
 		fmt.Println(`Usage: winpath "<your\new\path>"`)
